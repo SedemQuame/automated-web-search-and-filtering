@@ -1,0 +1,31 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment files
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Ignore profiling data
+*.prof
+
+# Ignore sensitive data directories (optional)
+data/
+
+# Ignore Python packages
+*.egg
+*.egg-info/
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore environment and dependency manager files
+.env
+venv/
